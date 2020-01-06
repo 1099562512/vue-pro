@@ -1,8 +1,8 @@
 <template>
-	<div class="header-wrap">
+	<div id="hd" class="header-wrap">
 		<div class="logo">Logo</div>
 		<div class="userInfo">
-			UserInfo
+      UserInfo
 		</div>
 	</div>
 </template>
@@ -12,6 +12,9 @@
 		data: function(){
 			return {}
 		},
+    mounted(){
+      console.log(this);
+    }
 	}
 </script>
 
