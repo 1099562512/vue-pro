@@ -15,8 +15,6 @@ console.log("main")
 new Vue({
   el: '#app', //挂载元素为index.html内id为app的元素
   router,//通过router配置参数注入路由,相当于router: router,从而使整个应用具备路由功能
-  components: 
-Warning
-#E6A23C, //引入主组件
+  components: {App}, //引入主组件
   template: '<App />'// 调用的主组件模板(模板替换挂载的元素),把app渲染挂载到页面
 })
